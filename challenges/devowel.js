@@ -1,8 +1,10 @@
 console.log('devowel script has loaded');
 
 // write this function!
-function devowel() {
+function devowel(string) {
+  return string.replace(/[AEIOUaeiou]/g, '');
 }
+
 
 // remove all vowels, lower and upper case!
 console.assert(devowel('alphAbet') === 'lphbt', 'first');
@@ -29,3 +31,5 @@ function devowelHandler() {
 }
 
 document.getElementById('devowel-button').addEventListener('click', devowelHandler);
+
+
