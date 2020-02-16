@@ -2,7 +2,7 @@ console.log('devowel script has loaded');
 
 // write this function!
 function devowel(string) {
-  return string.replace(/[AEIOUaeiou]/g, '');
+  return string.replace(/[aeiou]/gi, '');
 }
 
 
